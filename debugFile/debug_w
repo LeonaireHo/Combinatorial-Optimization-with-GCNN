@@ -1,0 +1,16 @@
+STATISTICS
+  Problem name     : debug.lp
+  Variables        : 4 (4 binary, 0 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 3 initial, 3 maximal
+OBJECTIVE
+  Sense            : minimize
+VARIABLES
+  [binary] <x0>: obj=82, original bounds=[0,1]
+  [binary] <x1>: obj=73, original bounds=[0,1]
+  [binary] <x2>: obj=5, original bounds=[0,1]
+  [binary] <x3>: obj=1, original bounds=[0,1]
+CONSTRAINTS
+  [linear] <c0>: <x0>[B] +<x2>[B] +<x3>[B] >= 1;
+  [linear] <c1>: <x1>[B] +<x2>[B] +<x3>[B] >= 1;
+  [linear] <c2>: <x0>[B] +<x1>[B] +<x3>[B] >= 1;
+END

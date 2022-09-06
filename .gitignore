@@ -1,0 +1,10 @@
+#dataset
+DataSet*
+#jupyter file
+__*
+#zip file
+*.zip
+#file for ipynb
+.ipynb*
+
+.idea
