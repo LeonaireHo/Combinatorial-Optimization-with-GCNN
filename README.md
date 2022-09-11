@@ -28,5 +28,5 @@ scip_parameters = {"branching/scorefunc": "s",
                   }
 
 generate_dataset(scip_parameters,path = "DataSet/",\
-                 nb_cons = [100,200,300,400,500],nb_var = [1,1.5,2],density = [0.1,0.15,0.2])
+                 nb_cons = [300,500],nb_var = [300,500],density = [0.1,0.15,0.2])
 ~~~
